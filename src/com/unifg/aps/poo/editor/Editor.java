@@ -1,10 +1,14 @@
 package com.unifg.aps.poo.editor;
 
+import com.unifg.aps.poo.commands.Command;
+import com.unifg.aps.poo.history.History;
+import com.unifg.aps.poo.history.Memento;
+import com.unifg.aps.poo.shapes.CompoundShape;
+import com.unifg.aps.poo.shapes.Shape;
+
+
 import javax.swing.*;
-import java.awt.*;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.util.Base64;
 
 public class Editor extends JComponent {
